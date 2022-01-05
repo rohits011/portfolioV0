@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+  padding: 0;
+  margin: 0;
+  /* background-color: antiquewhite;
+  z-index: -1; */
+  /* background: url(assets/img/bg-img.JPG);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* opacity: 0.2; */
+  /* backface-visibility: var(opacity, 0.1); */
+  /* background-position: center; */
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(80, 79, 79);
+}
