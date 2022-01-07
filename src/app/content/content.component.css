@@ -1,0 +1,43 @@
+.about {
+  margin: 10%;
+  padding: 0%;
+  bottom: 0;
+}
+.about-me {
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.bar {
+  height: 3px;
+  width: 20%;
+  margin: 2% 40%;
+  background-color: brown;
+  /* left: 0; */
+  /* right: 0; */
+  /* align-items: center; */
+}
+.about-me p {
+  margin-bottom: 50px;
+}
+.profession {
+  height: 300px;
+  width: 80%;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  /* z-index: -1; */
+}
+
+.p-image {
+  background: #000;
+  height: 80%;
+  width: 50%;
+}
+.p-about {
+  background-color: aquamarine;
+  height: 80%;
+  width: 50%;
+}

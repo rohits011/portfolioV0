@@ -55,11 +55,18 @@ h5 {
 }
 .social-profile ul li {
   /* margin: 70px 0; */
-  left: 0;
-  right: 0;
-  margin: 24.37px;
+
+  /* height: 40px; */
+  width: 20%;
+  /* margin: 24.37px; */
 }
 p {
   text-align: center;
   font-size: small;
+}
+.social-profile ul li a img {
+  width: 40%;
+}
+.social-profile ul li a img:hover {
+  background-color: aliceblue;
 }
