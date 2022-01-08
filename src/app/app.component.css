@@ -25,6 +25,7 @@
 }
 .content {
   background-color: rgb(141, 145, 145);
+  /* height: 100%; */
   width: 75%;
   display: flex;
   flex-direction: row;

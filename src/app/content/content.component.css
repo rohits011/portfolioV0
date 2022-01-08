@@ -1,3 +1,6 @@
+.content-container {
+  height: auto;
+}
 .about {
   margin: 10%;
   padding: 0%;
@@ -24,20 +27,42 @@
 }
 .profession {
   height: 300px;
-  width: 80%;
-  background-color: blue;
+  width: 100%;
+  /* background-color: blue; */
   display: flex;
   flex-direction: row;
   /* z-index: -1; */
 }
 
 .p-image {
-  background: #000;
-  height: 80%;
-  width: 50%;
+  /* background: rgb(223, 91, 91); */
+  height: auto;
+  width: 46%;
+  padding: 0px;
+  margin: 1%;
+  /* position: relative */
 }
 .p-about {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   height: 80%;
-  width: 50%;
+  width: 46%;
+  margin: 2%;
+  padding: 0px;
+  /* text-align: center; */
+}
+
+.p-image img {
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.p-about h3 {
+  margin-bottom: 30px;
+}
+
+.p-about button:hover {
+  background-color: azure;
+  color: #0dcaf0;
 }
